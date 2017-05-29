@@ -7,7 +7,7 @@
     tools:context="com.example.sumal.morse_code_android_application.MainActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editText_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -22,7 +22,7 @@
         app:layout_constraintHorizontal_bias="0.503" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -43,7 +43,7 @@
         android:text="ADD.MESSAGE.HERE"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_msg" />
 
     <TextView
         android:id="@+id/textView"
@@ -58,6 +58,6 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button_send"
         app:layout_constraintVertical_bias="0.051" />
 </android.support.constraint.ConstraintLayout>
