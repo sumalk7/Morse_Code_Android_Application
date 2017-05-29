@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/magenta"
     tools:context="com.example.sumal.morse_code_android_application.MainActivity">
 
     <EditText
@@ -16,6 +17,7 @@
         android:ems="10"
         android:inputType="textCapCharacters"
         android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -41,6 +43,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="22dp"
         android:text="ADD.MESSAGE.HERE"
+        android:textColor="@android:color/background_light"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText_msg" />
@@ -54,6 +57,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:text="TEXT MESSAGE MUST BE IN UPPERCASE !"
+        android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
