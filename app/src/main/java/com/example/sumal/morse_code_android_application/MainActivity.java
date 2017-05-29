@@ -81,6 +81,466 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    private void morse(char x){
+
+        switch (x){
+
+            case 'A' :
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'B' :
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'C' :
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'D' :
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'E' :
+
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'F' :
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'G' :
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'H' :
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'I' :
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'J' :
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'K' :
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'L' :
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'M' :
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'N' :
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'O' :
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'P' :
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'Q' :
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'S':
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'T':
+
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'U':
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'V':
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'W':
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'X':
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'Y':
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case 'Z':
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case '1':
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case '2':
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case '3':
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case '4':
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case '5':
+
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case '6':
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case '7':
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case '8':
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case '9':
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_1000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case '0':
+
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                turnOnFlash();
+                onPause_3000();
+                sp_letter();// space between letters -> 3 units
+                break;
+
+            case '.':
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+                turnOnFlash();
+                onPause_1000();
+
+            default:
+
+
+        }
+    }
+
+
 
 
     private void getCamera() {
