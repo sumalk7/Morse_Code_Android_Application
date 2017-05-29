@@ -49,4 +49,35 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    private void getCamera() {
+        if (camera == null) {
+            try {
+                camera = Camera.open();
+                params = camera.getParameters();
+            } catch (RuntimeException e) {
+                Log.e("Camera Error",e.getMessage());
+            }
+        }
+    }
+
+    private void turnOnFlash() {
+
+        params = camera.getParameters();
+        params.setFlashMode(Parameters.FLASH_MODE_TORCH);
+        camera.setParameters(params);
+        camera.startPreview();
+
+    }
+
+    private void turnOffFlash() {
+
+        params = camera.getParameters();
+        params.setFlashMode(Parameters.FLASH_MODE_OFF);
+        camera.setParameters(params);
+        camera.startPreview();
+
+    }
+
+
+
 }
