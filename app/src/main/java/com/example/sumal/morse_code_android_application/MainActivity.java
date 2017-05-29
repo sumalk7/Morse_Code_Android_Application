@@ -78,6 +78,37 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+
+        // get Access into Camera
+
+        getCamera();
+
+        // implement Button OnClick Listener
+
+
+        button_send.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                editText_msg = (EditText) findViewById(R.id.editText_msg);
+
+                get_text = editText_msg.getText().toString();
+
+                char Array_letters[] = get_text.toCharArray();
+
+                for(int i = 0; i < Array_letters.length; i++){
+
+                    morse(Array_letters[i]);
+
+                }
+
+
+            }
+        });
+
+
+
     }
 
 
