@@ -112,6 +112,80 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    protected void onPause_1000() {
+
+        super.onPause();
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        turnOffFlash();
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    protected void onPause_3000() {
+
+        super.onPause();
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        turnOffFlash();
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    protected void sp_letter(){
+
+        super.onPause();
+
+        turnOnFlash();
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        turnOffFlash();
+        turnOnFlash();
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        turnOffFlash();
+        turnOnFlash();
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        turnOffFlash();
+
+    }
+
 
 
 }
