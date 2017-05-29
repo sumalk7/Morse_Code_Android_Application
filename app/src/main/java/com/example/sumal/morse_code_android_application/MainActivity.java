@@ -44,6 +44,40 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        button_send = (Button) findViewById(R.id.button_send);
+
+        // check Camera Flash Available
+
+        hasFlash = getApplicationContext().getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
+
+        if(!hasFlash){
+
+            AlertDialog.Builder builder1 = new AlertDialog.Builder(this);
+            builder1.setTitle("You Need Camera Flash Light");
+            builder1.setMessage("Run This Application On Real Device ! A Device Has Flash Light");
+            builder1.setCancelable(true);
+
+            builder1.setPositiveButton("Continue Anyway",
+                    new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.cancel();
+                        }
+                    });
+            builder1.setNegativeButton("Close Application",
+                    new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            System.exit(1);
+                        }
+                    });
+
+            AlertDialog alert1 = builder1.create();
+            alert1.show();
+
+        }
+
     }
 
 
